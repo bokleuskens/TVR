@@ -1,0 +1,11 @@
+/* Alle standaard styling verwijderen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
