@@ -4,8 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* variabelen voor de fonts */
+:root {
+    --ff-main: "Roboto", sans-serif;
+    --ff-acent: "Poppins", sans-serif;
+}
+
 body {
     background-color: #000000;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--ff-main);
+    font-weight: 400;
+    font-size: 18px;
     color: #ffffff;
 }
